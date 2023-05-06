@@ -27,8 +27,8 @@ public class App
         Pokemon pokemon = gson.fromJson(response.body().string(), Pokemon.class);
 
 // Now you can access the properties of the Pokemon object
-        System.out.println(pokemon.getName()); // prints "pikachu"
-        System.out.println(pokemon.getBaseExperience()); // prints 112
+        System.out.println(pokemon.getName());
+        System.out.println(pokemon.getBaseExperience());
 
     }
 }
